@@ -23,8 +23,7 @@ public class Main {
             //빼기
         }else if(sign.equals("*")){
             //곱하기
-            Multiple m = new Multiple(a, b);
-            System.out.println(m.result());
+            Multiple.multiple(a,b);
         }else if(sign.equals("/")){
 
         }
@@ -32,14 +31,8 @@ public class Main {
 }
 
 class Multiple {
-    int a, b;
-
-    public Multiple(int a, int b) {
-        this.a = a;
-        this.b = b;
-    }
-
-    int result() {
-        return a * b;
+    public static void multiple(int a,int b){
+        int result=a*b;
+        System.out.println(result);
     }
 }
