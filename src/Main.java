@@ -20,6 +20,7 @@ public class Main {
         if (sign.equals("+")){
             //더하기 만들기
         }else if(sign.equals("-")){
+            //빼기
             Sub.sub(a, b);
         }else if(sign.equals("*")){
             //곱하기
