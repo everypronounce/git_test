@@ -23,6 +23,7 @@ public class Main {
             //빼기
         }else if(sign.equals("*")){
             //곱하기
+            Multiple.multiple(a,b);
         }else if(sign.equals("/")){
 
         }else {
