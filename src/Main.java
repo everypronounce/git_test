@@ -21,6 +21,7 @@ public class Main {
             //더하기 만들기
         }else if(sign.equals("-")){
             //빼기
+            Sub.sub(a, b);
         }else if(sign.equals("*")){
             //곱하기
             Multiple.multiple(a,b);
