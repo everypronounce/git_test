@@ -23,8 +23,23 @@ public class Main {
             //빼기
         }else if(sign.equals("*")){
             //곱하기
+            Multiple m = new Multiple(a, b);
+            System.out.println(m.result());
         }else if(sign.equals("/")){
 
         }
+    }
+}
+
+class Multiple {
+    int a, b;
+
+    public Multiple(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    int result() {
+        return a * b;
     }
 }
