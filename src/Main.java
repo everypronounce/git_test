@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Main {
@@ -19,11 +20,12 @@ public class Main {
         if (sign.equals("+")){
             //더하기 만들기
         }else if(sign.equals("-")){
-            sub(a, b);
+            //빼기
         }else if(sign.equals("*")){
             //곱하기
         }else if(sign.equals("/")){
 
         }
     }
+    class Sub {}
 }
