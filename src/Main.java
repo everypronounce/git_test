@@ -25,6 +25,8 @@ public class Main {
             //곱하기
         }else if(sign.equals("/")){
 
+        }else {
+            System.out.println("error");
         }
     }
 }
